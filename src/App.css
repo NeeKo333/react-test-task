@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.popup {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup_contnet {
+  width: 300px;
+  height: 250px;
+  background-color: blue;
+}
